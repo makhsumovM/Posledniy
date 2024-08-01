@@ -1,0 +1,150 @@
+body{
+    background-color: #eef1f5;
+}
+.glavniy{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.boloForJOb{
+    width: 80%;
+}
+
+
+.box{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+}
+
+
+.kartochki{
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.btnSeeMore{
+    padding: 15px 40px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.divKartochkiBolo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: start;
+    background-color: white;
+}
+
+.divKartochkiPoyon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: end;
+    background-color: white;
+}
+
+.JobLevel{
+    display: flex;
+    align-items: center;
+    padding : 5px 20px;
+    background-color: #BFDBFE;
+    border-radius: 100px;
+    
+}
+.divForJobName{
+    background-color: white;
+}
+
+.Location{
+    font: bolder;
+}
+
+.home_swaper{
+    color: rgb(78, 77, 77);
+}
+
+.ChooseByCategory{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F3F4F6;
+    cursor: pointer;
+}
+
+.ChooseByLevel{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F3F4F6;
+    cursor: pointer;
+}
+
+.selectors{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link{
+    color: rgb(78, 77, 77);
+    text-decoration: none;
+    display: block;
+}
+
+.active{
+    background-color: #d6e2ec;
+    border-right: 1px solid #2196F3;
+    display: block;
+
+}
+.nav-link:hover{
+    color: #2196F3;
+}
+
+.search {
+    padding: 12px 16px; 
+    border: none;
+    font-size: 16px; 
+    width: 300px;
+    background-color: #eef1f5;
+}
+
+
+.search:focus {
+   border: none;
+    outline: none; 
+}
+
+
+.search::placeholder {
+    color: black ;
+    font-size: 16px; 
+}
+
+.forSearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px;
+    background-color: #F3F4F6;
+    cursor: pointer;
+    width: fit-content;
+}
+
+table{
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+}

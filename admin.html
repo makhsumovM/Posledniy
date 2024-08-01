@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylemain.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="glavniy">
+        <div class="home_swaper">
+            <a href="main.html" class="nav-link"><h3 class="forMain" >Main</h3></a>
+            <a href="jobsearch.html" class="nav-link"><h3 class="forJob">JobSearch</h3></a>
+            <a href="#" class="nav-link"><h3 class="forAdmin">Admin</h3></a>
+            <a href="" class="nav-link"></a><h3 class="forMinage">Manage AppLicants</h3>
+        </div>
+        <div class="boloForJOb">
+            <h1>JOB ads</h1><button class="CreateNew">Create NEW</button><hr>
+            <fieldset  class="forSearch">
+                <legend>search</legend>
+                <input type="text" class="search" placeholder="Name , email ,etc">
+            </fieldset>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Level</th>
+                        <th>Location</th>
+                        <th>Phone Number</th>
+                        <th>Application</th>
+                        <th>Closing</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="jobTable">
+                    <!-- Table rows will be generated dynamically -->
+                </tbody>
+            </table>
+        </div>    
+    </div>
+<script src="js-admin/admin.js" type="module"></script>
+</body>
+</html>
